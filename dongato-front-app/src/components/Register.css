@@ -13,6 +13,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Nunito';
     width: 860px;
     height: 100hv;
     left: 207px;
@@ -63,20 +64,17 @@ body {
 .left-content h1 {
     color: white;
     font-size: 2rem;
-    font-family: 'Poppins';
     font-weight: 700;
 }
 
 .left-content h2 {
     color: white;
     font-size: 1.2rem;
-    font-family: 'Poppins';
     font-weight: 500;
 
 }
 
 .left-content .container .btn-conocenos {
-    font-family: 'Poppins';
     color: #02657A;
     border-radius: 1.875rem;
     border-color: #ACEDED;
@@ -122,8 +120,7 @@ body {
 .rigth-content h2 {
     color: #333333;
     font-size: 1.5rem;
-    font-family: 'Poppins';
-    font-weight: 700px;
+    font-weight: bolder;
 }
 
 

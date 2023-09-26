@@ -5,7 +5,7 @@ export const Register = () => {
 
   return (
     <html>
-      <body className="login">
+      <body>
 
         <div className="left-content">
 
