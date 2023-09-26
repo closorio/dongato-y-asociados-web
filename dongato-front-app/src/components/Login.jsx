@@ -5,7 +5,7 @@ export const Login = () => {
 
   return (
     <html>
-      <body className="login">
+      <body>
 
         <div className="left-content">
 
@@ -33,9 +33,9 @@ export const Login = () => {
             <p>Iniciar sesión</p>
 
             <input className='user-name' type="text" placeholder="Nombre de usuario" />
-            <input className='user-name' type="text" placeholder="Contraseña" />
+            <input className='user-password' type="text" placeholder="Contraseña" />
 
-            <button className='btn-ingresar' >Ingresar</button>
+            <button className='btn-ingresar'>Ingresar</button>
 
             <a className="olvide-contraseña" href='#'>Olvidé mi contraseña</a>
            
