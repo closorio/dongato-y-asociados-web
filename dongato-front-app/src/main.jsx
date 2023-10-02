@@ -17,6 +17,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/*<App/>*/}
     {/*<Register/>*/}
     {/*<Home/>*/}
-    <Home/>
+    <Register/>
   </React.StrictMode>,
 )
