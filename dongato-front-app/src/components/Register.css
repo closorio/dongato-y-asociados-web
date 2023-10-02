@@ -179,3 +179,17 @@ body {
     font-size: 0.9rem;
     font-weight: 400;
 }
+
+.right-content input,
+.right-content .container .btn-registrarse,
+.right-content .container a {
+    margin-bottom: 10px; /* Agrega un espacio de 10px entre los elementos */
+}
+
+.right-content .foot {
+    margin-top: 20px;
+}
+
+.right-content .foot a {
+    margin-right: 10px; /* Agrega un espacio de 10px entre los enlaces en el pie */
+}
