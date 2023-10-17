@@ -1,7 +1,7 @@
 import React from 'react'
-import logo from '../assets/images/logo-dongato.svg';
+import logo from '../../assets/images/logo-dongato.svg';
 
-export const Register = () => {
+export const RegisterForm = () => {
 
   return (
     <html>
@@ -49,4 +49,4 @@ export const Register = () => {
   )
 }
 
-export default Register;
+export default RegisterForm;

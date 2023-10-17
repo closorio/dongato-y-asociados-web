@@ -1,7 +1,7 @@
 import React from 'react'
-import logo from '../assets/images/logo-dongato.svg';
+import logo from '../../assets/images/logo-dongato.svg';
 
-export const Login = () => {
+export const LoginForm = () => {
 
   return (
     <html>
@@ -20,7 +20,7 @@ export const Login = () => {
               <img className='logo-dongato' src={logo} alt="Logo de Don gato y Asociados" />
             </div>
             <h1>Don gato y Asociados</h1>
-            <h2>La plataforma web de compra y venta de productos y servicios de confianza</h2>
+            <h2>La plataforma web de venta de productos de confianza</h2>
             <button className="btn-conocenos">Conócenos</button>
 
           </div>
@@ -52,4 +52,4 @@ export const Login = () => {
   )
 }
 
-export default Login;
+export default LoginForm;
