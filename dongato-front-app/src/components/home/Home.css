@@ -1,0 +1,167 @@
+html,
+body {
+    margin: 0;
+    width: 1440px;
+    height: 775px;
+    background: 'white';
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-family: 'Nunito';
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background: #58D8D8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    gap: 10px;
+}
+
+header .left-content {
+    width: 100%;
+    height: 100%;
+    background: #58D8D8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+header .left-content .container-logo-dongato {
+    width: 45px;
+}
+
+header .left-content .search {
+    width: 350px;
+    height: 45px;
+}
+
+header .right-content {
+    width: 100%;
+    height: 100%;
+    background: #58D8D8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+header .right-content ul {
+    list-style-type: none;
+}
+
+header .right-content li {
+    float: left;
+    margin-right: 10px;
+    padding: 0 4px;
+}
+
+header .right-content ul li a {
+    text-decoration: none;
+    color: #2F5858;
+}
+
+header .right-content .btn-vender {
+    width: 93px;
+    height: 40px;
+    background: #2F5858;
+    box-shadow: '0px 1px 4px rgba(24.73, 32.61, 60.56, 0.08)';
+    border-radius: 6px;
+    justify-content: 'center';
+    align-items: 'center';
+    color:#FFF;
+}
+
+header .right-content .btn-vender:hover {
+    background: #abffff;
+    color:#2F5858;
+    transition: 0.3s;
+
+}
+
+navbar {
+    width: 100%;
+    height: 45px;
+    background: #39C5C5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+navbar .btn-premium-now{
+    width: 325px;
+    height: 30px;
+    background: #2CFF80;
+    border: 1px solid #2CFF80;
+    box-shadow: '0px 1px 4px rgba(24.73, 32.61, 60.56, 0.08)';
+    border-radius: 20px;
+    font-weight: bolder;
+    justify-content: 'center';
+    align-items: 'center';
+    color:#38C5C5;
+
+}
+
+navbar .btn-premium-now:hover{
+    background: #2F5858;
+    border: 1px solid #2F5858;
+    color:#2CFF80;
+    transition: 0.3s;
+}
+
+navbar nav ul {
+    list-style-type: none;
+}
+
+navbar nav  li {
+    float: left;
+    margin-right: 10px;
+    padding: 0 4px;
+}
+
+navbar nav ul li a {
+    text-decoration: none;
+    color: #2F5858;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(75, 219, 219, 0.35) 0%, rgba(20, 167, 167, 0.35) 71.07%, rgba(2, 101, 122, 0.35) 98.46%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main section .cat-container{
+    padding: 30px 0;
+
+}
+
+footer foot{
+    width: 100%;
+    height: 35px;
+    background: #333333;
+    color:#FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+
+footer foot p{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
