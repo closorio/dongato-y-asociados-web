@@ -1,79 +1,53 @@
-import React from 'react'
-import logo from '../assets/images/logo-dongato.svg';
-import cat from '../assets/images/categories.png';
+import React from 'react';
 
-export const Home = () => {
+function App() {
+  // Datos de ejemplo para categorías y productos
+  const categorias = ['Electrónicos', 'Ropa', 'Hogar', 'Juguetes'];
+  const productos = [
+    { id: 1, nombre: 'Smartphone', categoria: 'Electrónicos' },
+    { id: 2, nombre: 'Camiseta', categoria: 'Ropa' },
+    { id: 3, nombre: 'Lámpara', categoria: 'Hogar' },
+    { id: 4, nombre: 'Muñeco', categoria: 'Juguetes' },
+    // Agrega más productos aquí
+  ];
 
-    return (
-        <body>
-
-            <header>
-
-                <div className="left-content">
-
-                    <div className="menu"> Menú </div>
-                    <a href='#' className="container-logo-dongato">
-                        <img className='logo-dongato' src={logo} alt="Logo de Don gato y Asociados" />
-                    </a>
-                    <input className='search' type="text" placeholder="Buscar por..." />
-
-                </div>
-
-                <div className="right-content">
-
-                    <nav>
-                        <ul>
-                            <li><a href="#">Inicio</a></li>
-                            <li><a href="#">Acerca de</a></li>
-                            <li><a href="#">Contacto</a></li>
-                            <li><a href="#">Precios</a></li>
-                        </ul>
-                    </nav>
-
-                    <button className="btn-vender">¡Vender!</button>
-                    <div className="user-img">
-                        <img src='' alt="Imagen de usuario" />
-                    </div>
-                    <button className="user-options">x</button>
-                </div>
-
-            </header>
-
-            <navbar>
-
-                <button className="btn-premium-now">¡Prueba nuestro plan premium ahora!</button>
-
-                <nav>
-                    <ul>
-                        <li><a href="#">Servicios</a></li>
-                        <li><a href="#">Productos</a></li>
-                        <li><a href="#">Más +</a></li>
-                    </ul>
-                </nav>
-
-            </navbar>
-
-            <main>
-
-                <section className="destacado">
-                    <div className="cat-container">
-                        <img className='categories' src={cat} alt="Categorias" />
-                    </div>
-
-                </section>
-
-            </main>
-
-            <footer>
-                <div className="footer-container"> </div>
-
-                <foot>
-                    <p> Copyright &copy; 2023 dongatoyasociados.com. Todos los derechos reservados.</p>
-                </foot>
-            </footer>
-
-        </body>
-    );
+  return (
+    <div>
+      <header>
+        <h1>Don Gato y Asociados</h1>
+        <nav>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Categorías</a></li>
+            <li><a href="#">Ofertas</a></li>
+            <li><a href="#">Mi Cuenta</a></li>
+            <li><a href="#">Carrito</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section>
+          <h2>Categorías</h2>
+          <ul>
+            {categorias.map((categoria, index) => (
+              <li key={index}>{categoria}</li>
+            ))}
+          </ul>
+        </section>
+        <section>
+          <h2>Productos Destacados</h2>
+          <ul>
+            {productos.map((producto) => (
+              <li key={producto.id}>
+                <p>{producto.nombre}</p>
+                <p>Categoría: {producto.categoria}</p>
+              </li>
+            ))}
+          </ul>
+        </section>
+      </main>
+    </div>
+  );
 }
 
-export default Home;
+export default App;
