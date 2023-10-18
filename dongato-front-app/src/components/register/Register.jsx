@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './Register.css';
 import logo from '../../assets/images/logo-dongato.svg';
 
 export const RegisterForm = () => {
@@ -12,7 +13,6 @@ export const RegisterForm = () => {
   const [cPassword, setcPassword] = useState("")
 
   const handleCorreoExist = async () => {
-
 
   }
 
@@ -50,23 +50,18 @@ export const RegisterForm = () => {
   }
   return (
     <html>
-      <body className="login">
+      <body className="register">
 
         <div className="left-content">
 
-          {/*<div className="elipses"> 
-            <div className="Ellipse1"></div>
-            <div className="Ellipse2"></div>
-          </div>*/}
-
           <div className="container">
 
-            <div className="container-logo-dongato">
+          <div className="container-logo-dongato">
               <img className='logo-dongato' src={logo} alt="Logo de Don gato y Asociados" />
             </div>
+
             <h1>Don gato y Asociados</h1>
-            <h2>La plataforma web de compra y venta de productos y servicios de confianza</h2>
-            <button className="btn-conocenos">Conócenos</button>
+            <h2>¡Donde la tecnología se encuentra con la comodidad!</h2>
 
           </div>
         </div>
@@ -86,6 +81,7 @@ export const RegisterForm = () => {
 
               <button type='submit' disabled={password != cPassword && correo != ""} onClick={(e) => handleCorreoExist(e)} className='btn-registrarse'>Registrarse</button>
             </form>
+            
           </div>
 
         </div>

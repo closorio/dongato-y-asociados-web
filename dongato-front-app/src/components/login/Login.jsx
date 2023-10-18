@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../../assets/images/logo-dongato.svg';
+import { Link } from 'react-router-dom';
 
 export const LoginForm = () => {
 
@@ -9,19 +10,13 @@ export const LoginForm = () => {
 
         <div className="left-content">
 
-          {/*<div className="Group2"> 
-            <div className="Ellipse1"></div>
-            <div className="Ellipse2"></div>
-          </div>*/}
-
           <div className="container">
 
             <div className="container-logo-dongato">
               <img className='logo-dongato' src={logo} alt="Logo de Don gato y Asociados" />
             </div>
             <h1>Don gato y Asociados</h1>
-            <h2>La plataforma web de venta de productos de confianza</h2>
-            <button className="btn-conocenos">Conócenos</button>
+            <h2>Tu plataforma de compras en línea para productos tecnológicos y accesorios de tendencia, diseñada para ti.</h2>
 
           </div>
         </div>
@@ -40,8 +35,8 @@ export const LoginForm = () => {
             <a className="olvide-contraseña" href='#'>Olvidé mi contraseña</a>
            
             <div className="foot">
-              <p>¿Quieres ser vendedor?</p>
-              <a className="registrate-aqui" href='#'>Regístrate aquí</a>
+              <p>¿No tienes una cuenta?</p>
+              <Link to="/register" className="registrate-aqui">Regístrate aquí</Link>
             </div>
 
           </div>
