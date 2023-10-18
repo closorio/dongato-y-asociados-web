@@ -1,15 +1,4 @@
   
-html,
-body {
-    margin: 0;
-    width: 1440px;
-    height: 100%;
-    background: 'white';
-    display: flex;
-    flex-direction: row;
-    font-size: 16px;
-}
-
 .left-content {
     display: flex;
     justify-content: center;
@@ -20,27 +9,6 @@ body {
     background: linear-gradient(180deg, #4BDBDB 0%, #14A7A7 71%, #02657A 98%);
 }
 
-/*
-.Ellipse1 {
-    width: 557px;
-    height: 557px;
-    left: 81px;
-    top: 26px;
-    position: absolute;
-    border-radius: 9999px;
-    border: 1.50px #ACEDED solid;
-}
-
-.Ellipse2 {
-    width: 557px;
-    height: 557px;
-    left: 0;
-    top: 0;
-    position: absolute;
-    border-radius: 9999px;
-    border: 1.50px #ACEDED solid;
-}
-*/
 
 .left-content .container {
     width: 820px;
@@ -51,14 +19,6 @@ body {
     justify-content: center;
 }
 
-.left-content .container-logo-dongato {
-    width: 200px;
-    height: auto;
-}
-
-.logo-dongato {
-    width: 100%;
-}
 
 .left-content h1 {
     color: white;
@@ -73,26 +33,6 @@ body {
     font-family: 'Poppins';
     font-weight: 500;
 
-}
-
-.left-content .container .btn-conocenos {
-    font-family: 'Poppins';
-    color: #02657A;
-    border-radius: 1.875rem;
-    border-color: #ACEDED;
-    background: #ACEDED;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.35);
-    padding: 5px 20px;
-    outline: none;
-    cursor: pointer;
-    margin-bottom: 80px;
-}
-
-.left-content .container .btn-conocenos:hover {
-    background: #02657A;
-    transition: 0.3s;
-    color: #ACEDED;
-    border-color: #02657A;
 }
 
 /*################################################################*/
